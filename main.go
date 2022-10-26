@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/dmokel/design-patterns/theory"
+	"github.com/dmokel/design-patterns/structural/decorator"
 )
 
 func main() {
-	theory.Index()
+	decorator.Index()
 }
