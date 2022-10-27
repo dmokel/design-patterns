@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/dmokel/design-patterns/structural/adapter"
+	"github.com/dmokel/design-patterns/structural/facade"
 )
 
 func main() {
-	adapter.Index()
+	facade.Index()
 }
