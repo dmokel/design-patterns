@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/dmokel/design-patterns/structural/decorator"
+	"github.com/dmokel/design-patterns/structural/adapter"
 )
 
 func main() {
-	decorator.Index()
+	adapter.Index()
 }
