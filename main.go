@@ -1,9 +1,9 @@
 package main
 
 import (
-	templatemethod "github.com/dmokel/design-patterns/behavioral/template-method"
+	"github.com/dmokel/design-patterns/behavioral/command"
 )
 
 func main() {
-	templatemethod.Index()
+	command.Index()
 }
