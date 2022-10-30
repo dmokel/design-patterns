@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/dmokel/design-patterns/behavioral/command"
+	"github.com/dmokel/design-patterns/behavioral/strategy"
 )
 
 func main() {
-	command.Index()
+	strategy.Index()
 }
