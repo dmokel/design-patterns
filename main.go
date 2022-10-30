@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/dmokel/design-patterns/structural/facade"
+	templatemethod "github.com/dmokel/design-patterns/behavioral/template-method"
 )
 
 func main() {
-	facade.Index()
+	templatemethod.Index()
 }
