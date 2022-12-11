@@ -47,13 +47,8 @@ func NewAdapter(v220 *V220) *Adapter {
 	return &Adapter{v220}
 }
 
-func logic() {
+func phonelogic() {
 	// 在不修改phone组件前提下（oop开闭原则），又必须使用现有220v组件（该现有组件也是不可修改的），则需要一个适配器
 	phone := NewPhone(NewAdapter(new(V220)))
 	phone.Charge()
-}
-
-// Index ...
-func Index() {
-	logic()
 }
